@@ -1,13 +1,13 @@
 # Summary
 
-## About Redash
+## About Redash {#about}
 * [What's Redash?](aboutrd/aboutrd.md#whats_redash)
 * [Main Features](aboutrd/aboutrd.md#main_features)
 * [Supported Data Sources](aboutrd/aboutrd.md#supported_data_sources)
 * [What Browsers Redash Works Best on?](aboutrd/aboutrd.md#supported_browsers)
 * [Privacy and Security](aboutrd/aboutrd.md#privacy-security)
 
-## Getting Started
+## Getting Started {#getting-started}
 * [Adding Datasources](getting_started/getting_started.md#add-datasource)
 * [Exploring Schemas](queries/writing_queries.md#exploring-schemas)
 * [Writing Queries](getting_started/getting_started.md#write_queries)
@@ -15,12 +15,12 @@
 * [Creating Dashboards](getting_started/getting_started.md#create-dash)
 * [Invite Colleagues](getting_started/getting_started.md#invite-users)
 
-## User, Group and Query Management
+## User, Group and Query Management {#user-mgmt}
 * [Inviting Users to Use Redash](user-mgmt/user-mgmt.md#inviting_users)
 * [Creating and Editing Groups](user-mgmt/user-mgmt.md#create-edit-groups)
 * [Permissions and Groups](user-mgmt/user-mgmt.md#permissions_and_groups)
 
-## Querying
+## Querying {#querying}
 * [How to Create a New Query?](queries/query_actions.md#how_to_create_a_query)
 * [How to Write a Query?](queries/writing_queries.md#how_to_write_a_query)
 * [Querying ElasticSearch](queries/querying_elasticsearch.md)
@@ -40,14 +40,14 @@
 * [Querying a Google Spreadsheets Data Source](queries/query-google-spreadsheets.md)
 * [Querying URLs](queries/query-url.md)
 
-## Visualization
+## Visualization {#visualizations}
 * [How to Create a Visualization from My Dataset?](visualization/visualization.md#create_new_viz)
 * [What Types of Visualization Can I Use for My Results?](visualization/visualization.md#viz_types)
 * [How to Embed Visualizations?](visualization/visualization.md#embed_viz)
 * [How to Edit a Visualization?](visualization/visualization.md#edit_viz)
 * [Can I Download a Visualization as an Image File?](visualization/visualization.md#download_viz)
 
-## Dashboards
+## Dashboards {#dashboards}
 * [How to Create a Dashboard?](dashboards/dashboards.md#create_new_dash)
 * [Adding Visualizations to Dashboards](dashboards/dashboards.md#add_viz_to_dash)
 * [Grouping Dashboards](dashboards/dashboards.md#grouping_dashs)
@@ -55,26 +55,26 @@
 * [Embedding Dashboards](dashboards/dashboards.md#embed_dash)
 * [Dashboard Filters (flags)](dashboards/dashboards.md#dash_filters_flags)
 
-## Alerts
+## Alerts {#alerts}
 * [How to Setup an Alert](alerts/how-to-setup-an-alert.md)
 * [Adding Alert Destination - Slack](alerts/slack-alert-destination.md)
 * [Alert Status and Frequency](alerts/alert-status-freq.md)
 
-## Data Sources Setup
+## Data Sources Setup {#db-setup}
 * [Amazon Athena Setup](data-sources/amazon-athena.md)
 
-## Query Examples
+## Query Examples {#query-examples}
 * [Cohort Query Example](query-examples-hacks/cohort-example.md)
 * [DAU, WAU, MAU example](query-examples-hacks/dau-wau-mau-example.md)
 * [Funnel Queries - Sankey and Sunbusrt Visualizations](query-examples-hacks/sunbusrt-sankey-example.md)
 
-## Redash Hacks
+## Redash Hacks {#redash-hacks}
 * [Conditional Formatting and General Text Formatting](query-examples-hacks/redash-hacks.md#conditional-formatting)
 * [Clickable URLs in tables](query-examples-hacks/redash-hacks.md#clickable-urls-in-table)
 * [Images Inside tables](query-examples-hacks/redash-hacks.md#images-inside-table)
 * [Default Parameter Value](query-examples-hacks/redash-hacks.md#default-param-value)
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 * [Status Page](troubleshooting/status-page.md)
 * [Error: Worker Exited Prematurely: Signal 9 (sigkill)](troubleshooting/error-worker-exited-prematurely-signal-9-sigkill.md)
 * [Error Running Query : Query completed but it returned no data](troubleshooting/query_complete_no_data.md)
