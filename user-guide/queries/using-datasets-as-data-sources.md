@@ -6,12 +6,12 @@ To use it, you need to create a new data source of type "Query Results (Alpha)".
 
 ![](../assets/query_results.png)
 
-Then you can use it to write queries like:
+Then you can use it to write queries in SQLite syntax like this one:
 
 ```sql
-SELECT A.NAME, B.COUNT
-FROM QUERY_123 A
-JOIN QUERY_456 B ON A.ID = B.ID
+SELECT a.name, b.count
+FROM query_123 a
+JOIN query_456 b ON a.id = b.id
 ```
 
 You reference queries as "query_<id>" in either the FROM or the JOIN clause.
