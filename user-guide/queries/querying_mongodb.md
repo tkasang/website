@@ -83,8 +83,8 @@ It accepts human readable string like the above (“3 years ago”, “yesterday
 
 Live example on the demo instance: http://demo.redash.io/queries/2112/source.
 
-###MongoDB Filtering
-You can add filters to Mongo queries by projecting a column with the '::filter' keyword added on to the end.
+###Applying Filters to MongoDB
+You can add filters to Mongo queries by projecting a column with the '::filter' or '::multi-filter' annotations added on to the end.
 
 ```
 {
@@ -104,5 +104,7 @@ You can add filters to Mongo queries by projecting a column with the '::filter' 
 ```
 
 The above example will show a 'State' column, and allow you to filter on this column.
+Using 'multi-filter' will enable you to select 1 or many states.
+Read more about filters [here](writing_queries.md#query_filters).
 
 Live example on the demo instance: http://demo.redash.io/queries/3523/source.
