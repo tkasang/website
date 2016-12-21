@@ -69,7 +69,9 @@ This is how an "action" parameter looks:
 
 ![](../assets/param_example.png)
 
-**Please note that you'll need to re-execute the query with the newly set parameter to get the desires results.**
+> ####: Important>
+>
+> Please note that you'll need to re-execute the query with the newly set parameter to get the desired results.
 
 While parameters work in dashboards, they won't work when embedding visualizations outside of Redash.
 
@@ -103,7 +105,9 @@ You can see this query and the rendered UI here: [http://demo.redash.io/queries/
 
 ![](../assets/multifilter_example.png)
 
-Note that you can use `__filter` or `__multiFilter`, (double underscore instead of double quotes) if your database doesn’t support :: in column names (such as BigQuery).
+> #### :: Alternative
+>
+> Note that you can use `__filter` or `__multiFilter`, (double underscore instead of double quotes) if your database doesn’t support :: in column names (such as BigQuery).
 
 ## Shortcuts {#shortcuts}
 
