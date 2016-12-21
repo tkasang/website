@@ -82,4 +82,12 @@ CASE
         ELSE date = '{{date}}'
   END
   ```
+Or:
+```sql
+CASE
+        WHEN '{{date}}' = 'CURRENT_DATE - 1' THEN date IS NOT NULL
+        ELSE date = '{{date}}'
+  END
+  ```
+
 Kelly (thanks Kelly!) from Hudl shared this in our [Slack community](http://slack.redash.io).
