@@ -2,7 +2,7 @@
 
 ## Inviting Users to Redash {#inviting_users}
 
-Users can be invited only by admins - to invite a new user go to Settings>Users and hit New User:
+Users can be invited only by admins - to invite a new user go to Settings > Users and hit New User:
 
 ![](../assets/invite_new_user.png)
 
@@ -13,7 +13,7 @@ Users can be added to existing groups - add users to it by typing their name:
 
 ## Creating and Editing Groups {#create-edit-groups}
 
-Only admins can create groups and edit them - to create a new group to to Settings>Groups and hit New Group:
+Only admins can create groups and edit them - to create a new group to to Settings > Groups and hit New Group:
 ![](../assets/group_settings.png)
 
 To edit an existing group's settings, click on its name in the Groups list.
